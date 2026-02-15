@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Moon, Star, MapPin, Building2, User, ChevronRight } from 'lucide-react';
-import VolunteerModal from './VolunteerModal';
+import VolunteerModal from './VolunteerModal.tsx';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -51,7 +51,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </div>
       </header>
 
-      {/* Volunteer Profile Bar - Matches Screenshot Request */}
+      {/* Volunteer Profile Bar */}
       <div className="bg-[#f0fdf4] border-b border-emerald-100 no-print sticky top-0 z-40 backdrop-blur-md bg-white/80">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">

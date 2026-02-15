@@ -1,10 +1,10 @@
 
 import React, { useState, useMemo, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Layout from './components/Layout';
-import { beneficiaries } from './data/beneficiaries';
-import { Beneficiary, SearchFilters } from './types';
-import StatsCard from './components/StatsCard';
+import Layout from './components/Layout.tsx';
+import { beneficiaries } from './data/beneficiaries.ts';
+import { Beneficiary, SearchFilters } from './types.ts';
+import StatsCard from './components/StatsCard.tsx';
 import { 
   Search, Phone, Map, MapPin, ChevronRight, 
   UserCircle, SearchX, Printer, Image as ImageIcon, 
